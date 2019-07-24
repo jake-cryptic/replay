@@ -1,0 +1,43 @@
+body, html{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+#controls{
+	position:fixed;
+	width:100vw;
+	height:10vh;
+}
+
+#map, #status{
+	position:absolute;
+	margin-top:10vh;
+}
+
+#map{
+	width:80vw;
+	height:90vh;
+}
+
+#status{
+	width:20vw;
+	height:90vh;
+	margin-left:80vw;
+	
+	background-color:#1a1a1a;
+	color:#fff;
+	text-align:center;
+}
+
+.side_sect{
+	padding:5px;
+}
+
+table{
+	width:100%;
+}
+
+table tbody tr{
+	font-size:1.1em;
+}
